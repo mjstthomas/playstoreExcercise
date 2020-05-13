@@ -39,6 +39,4 @@ app.get('/playstore', (req, res)=>{
 	res.json(playstore)
 })
 
-app.listen(8000, ()=>{
-	console.log('listening!')
-})
+module.exports = app
